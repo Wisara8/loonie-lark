@@ -10,12 +10,25 @@ class _LoonieListState extends State<LoonieList> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Loonie Lark"),
+        title: Text(
+          "Loonie Lark",
+          style: TextStyle(color: Colors.yellow, fontSize: 30.0),
+        ),
       ),
       body: Column(
         children: <Widget>[
           Row(
-            children: <Widget>[Text("ListView"), Text('100 Points')],
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+              Text(
+                "ListView",
+                style: TextStyle(color: Colors.yellow, fontSize: 20.0),
+              ),
+              Text(
+                '100 Points',
+                style: TextStyle(color: Colors.yellow, fontSize: 20.0),
+              )
+            ],
           ),
           Expanded(
             child: Container(
@@ -64,11 +77,13 @@ class _LoonieListState extends State<LoonieList> {
                           style: TextStyle(color: Colors.white)),
                       trailing: Text("75 points"),
                       onTap: () {
+                        print('tappy tap tap');
                         //image picker
                         //save photo?
                         //send data
                       },
                       onLongPress: () {
+                        print('long tappy tap');
                         // toggle card colour and strike text.
                         // update score
                       },
