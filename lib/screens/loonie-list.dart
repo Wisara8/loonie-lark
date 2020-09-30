@@ -10,12 +10,36 @@ class _LoonieListState extends State<LoonieList> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Loonie Lark List"),
+        title: Text("Loonie Lark"),
       ),
       body: Column(
-        children: [
-          Text("Item 1"), Text("Item 2"), Text("Item 3"), Text("Item 4"),
-          // tasks
+        children: <Widget>[
+          Row(
+            children: <Widget>[Text("ListView"), Text('100 Points')],
+          ),
+          Expanded(
+            child: Container(
+              child: ListView(
+                children: <Widget>[
+                  ListTile(
+                    leading: Icon(
+                      Icons.photo_camera,
+                      color: Colors.white,
+                    ),
+                    title: Text(
+                      "Art Attack",
+                      style: TextStyle(color: Colors.white),
+                    ),
+                    subtitle: Text(
+                        "Make a large 6x6 art piece using creative mediums",
+                        style: TextStyle(color: Colors.white)),
+                    trailing: Text("100 points"),
+                    isThreeLine: true,
+                  ),
+                ],
+              ),
+            ),
+          ),
         ],
       ),
     );
