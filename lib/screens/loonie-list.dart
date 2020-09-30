@@ -14,6 +14,7 @@ class _LoonieListState extends State<LoonieList> {
       ),
       body: Column(
         children: [
+          Text("Item 1"), Text("Item 2"), Text("Item 3"), Text("Item 4"),
           // tasks
         ],
       ),
