@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d696a0bd-d43a-4fb6-885f-b3ff49cb1deb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/widgets/task_list.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/widgets/task_tile.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/models/task.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/content/list-content.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/content/list-content.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screens/loonie-list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/loonie-list.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/task_list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/task_list.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/task_tile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/task_tile.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +27,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1i1WN7iR7lwiZncnGKgzAffQ0hG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />

@@ -7,6 +7,7 @@ class LoonieList extends StatefulWidget {
 }
 
 class _LoonieListState extends State<LoonieList> {
+  int points = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -26,7 +27,7 @@ class _LoonieListState extends State<LoonieList> {
                 style: TextStyle(color: Colors.yellow, fontSize: 20.0),
               ),
               Text(
-                '100 Points',
+                '$points Points',
                 style: TextStyle(color: Colors.yellow, fontSize: 20.0),
               )
             ],

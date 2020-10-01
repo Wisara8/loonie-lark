@@ -21,6 +21,7 @@ class TaskTile extends StatelessWidget {
           //image picker
           //save photo?
           //send data
+          // toggle colour and strike text
         },
         onLongPress: () {
           // toggle card colour and strike text.
