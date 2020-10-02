@@ -5,6 +5,9 @@ class ContentList {
     {'title': "upside down dance", 'points': 100},
     {'title': "Art Attack", 'points': 100},
     {'title': "write a poem about your driver", 'points': 100},
-    {'title': "recreate favorite scene from titanic/300/aliens", 'points': 25}
+    {'title': "recreate favorite scene from titanic/300/aliens", 'points': 25},
+    {'title': "photo with a dog", 'points': 50},
+    {'title': "mentos coke fight", 'points': 75},
+    {'title': "tie eveyone's shoes together and play tug o war", 'points': 100},
   ];
 }
