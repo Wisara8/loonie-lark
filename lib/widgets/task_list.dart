@@ -6,16 +6,20 @@ import '../models/task_data.dart';
 class TaskList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return ListView.builder(
-      itemBuilder: (context, index) {
-        return TaskTile(
-          icon: Provider.of<TaskData>(context).tasks[index].icon,
-          title: Provider.of<TaskData>(context).tasks[index].title,
-          subTitle: Provider.of<TaskData>(context).tasks[index].subTitle,
-          points: Provider.of<TaskData>(context).tasks[index].points,
+    return Consumer<TaskData>(
+      builder: (context, taskData, child) {
+        return ListView.builder(
+          itemBuilder: (context, index) {
+            return TaskTile(
+              icon: taskData.tasks[index].icon,
+              title: taskData.tasks[index].title,
+              subTitle: taskData.tasks[index].subTitle,
+              points: taskData.tasks[index].points,
+            );
+          },
+          itemCount: taskData.tasks.length,
         );
       },
-      itemCount: Provider.of<TaskData>(context).tasks.length,
     );
   }
 }
