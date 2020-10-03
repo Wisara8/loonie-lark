@@ -30,27 +30,16 @@ class _TaskListState extends State<TaskList> {
   ];
   @override
   Widget build(BuildContext context) {
-    return ListView(
-      children: <Widget>[
-        TaskTile(
-          icon: tasks[0].icon,
-          title: tasks[0].title,
-          subTitle: tasks[0].subTitle,
-          points: tasks[0].points,
-        ),
-        TaskTile(
-          icon: tasks[1].icon,
-          title: tasks[1].title,
-          subTitle: tasks[1].subTitle,
-          points: tasks[1].points,
-        ),
-        TaskTile(
-          icon: tasks[2].icon,
-          title: tasks[2].title,
-          subTitle: tasks[2].subTitle,
-          points: tasks[2].points,
-        ),
-      ],
+    return ListView.builder(
+      itemBuilder: (context, index) {
+        return TaskTile(
+          icon: tasks[index].icon,
+          title: tasks[index].title,
+          subTitle: tasks[index].subTitle,
+          points: tasks[index].points,
+        );
+      },
+      itemCount: tasks.length,
     );
   }
 }
