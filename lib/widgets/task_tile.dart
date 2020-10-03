@@ -1,22 +1,29 @@
 import 'package:flutter/material.dart';
 
 class TaskTile extends StatelessWidget {
+  final bool isDone;
+  final IconData icon;
+  final String title;
+  final String subTitle;
+  final int points;
+
+  TaskTile({this.isDone, this.icon, this.title, this.subTitle, this.points});
+
   @override
   Widget build(BuildContext context) {
     return Card(
       color: Colors.lightGreen,
       child: ListTile(
         leading: Icon(
-          Icons.photo_camera,
+          icon,
           color: Colors.white,
         ),
         title: Text(
-          "Art Attack",
+          title,
           style: TextStyle(color: Colors.white),
         ),
-        subtitle: Text("Make a large 6x6 art piece using creative mediums",
-            style: TextStyle(color: Colors.white)),
-        trailing: Text("100 points"),
+        subtitle: Text(subTitle, style: TextStyle(color: Colors.white)),
+        trailing: Text(points.toString()),
         onTap: () {
           //image picker
           //save photo?

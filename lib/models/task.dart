@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Task {
-  final Icon icon;
+  final IconData icon;
   final String title;
   final String subTitle;
   final int points;
