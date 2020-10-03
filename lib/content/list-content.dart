@@ -9,5 +9,9 @@ class ContentList {
     {'title': "photo with a dog", 'points': 50},
     {'title': "mentos coke fight", 'points': 75},
     {'title': "tie eveyone's shoes together and play tug o war", 'points': 100},
+    {
+      'title': "Make a hat and wear it for the rest of the night",
+      'points': 100
+    },
   ];
 }
