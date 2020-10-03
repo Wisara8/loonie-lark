@@ -1,13 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:loonielark/widgets/task_list.dart';
+import 'package:provider/provider.dart';
+import '../models/task_data.dart';
 
-class LoonieList extends StatefulWidget {
-  @override
-  _LoonieListState createState() => _LoonieListState();
-}
-
-class _LoonieListState extends State<LoonieList> {
-  int points = 0;
+class LoonieList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,7 +23,7 @@ class _LoonieListState extends State<LoonieList> {
                 style: TextStyle(color: Colors.yellow, fontSize: 20.0),
               ),
               Text(
-                '$points Points',
+                '${Provider.of<TaskData>(context).points.toString()} Points',
                 style: TextStyle(color: Colors.yellow, fontSize: 20.0),
               )
             ],

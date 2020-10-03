@@ -29,10 +29,12 @@ class TaskTile extends StatelessWidget {
           //save photo?
           //send data
           // toggle colour and strike text
+          print(title);
         },
         onLongPress: () {
           // toggle card colour and strike text.
           // update score
+          print(subTitle);
         },
         isThreeLine: true,
       ),
