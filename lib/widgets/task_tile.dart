@@ -21,7 +21,7 @@ class TaskTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: isDone ? Colors.yellowAccent : Colors.lightGreen,
+      color: isDone ? Colors.lightBlueAccent : Colors.lightGreen,
       child: ListTile(
         leading: Icon(
           icon,
@@ -46,7 +46,7 @@ class TaskTile extends StatelessWidget {
           // update score
           print(subTitle);
           toggleComplete();
-          isDone = true;
+          print(isDone);
         },
         isThreeLine: true,
       ),

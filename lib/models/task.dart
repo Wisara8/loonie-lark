@@ -13,6 +13,5 @@ class Task {
   void toggleDone() {
     print('here');
     isDone = !isDone;
-    print(isDone);
   }
 }
