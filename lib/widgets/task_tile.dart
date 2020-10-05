@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import '../models/task_data.dart';
 
 class TaskTile extends StatelessWidget {
   final bool isDone;
@@ -30,6 +32,7 @@ class TaskTile extends StatelessWidget {
           //send data
           // toggle colour and strike text
           print(title);
+          Provider.of<TaskData>(context, listen: false).modifyPoints(points);
         },
         onLongPress: () {
           // toggle card colour and strike text.

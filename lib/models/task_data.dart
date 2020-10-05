@@ -4,6 +4,11 @@ import 'task.dart';
 class TaskData extends ChangeNotifier {
   int points = 0;
 
+  void modifyPoints(int adjustPoints) {
+    points += adjustPoints;
+    notifyListeners();
+  }
+
   List<Task> tasks = [
     Task(
       icon: Icons.photo_camera,
