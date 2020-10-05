@@ -11,6 +11,8 @@ class Task {
       {this.icon, this.title, this.subTitle, this.points, this.isDone = false});
 
   void toggleDone() {
+    print('here');
     isDone = !isDone;
+    print(isDone);
   }
 }

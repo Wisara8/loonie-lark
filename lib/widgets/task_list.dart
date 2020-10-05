@@ -15,6 +15,9 @@ class TaskList extends StatelessWidget {
               title: taskData.tasks[index].title,
               subTitle: taskData.tasks[index].subTitle,
               points: taskData.tasks[index].points,
+              toggleComplete: () {
+                taskData.toggleDone(taskData.tasks[index]);
+              },
             );
           },
           itemCount: taskData.tasks.length,
