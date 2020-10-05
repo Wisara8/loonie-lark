@@ -2,12 +2,12 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 
-class ImagePicker extends StatefulWidget {
+class TakePicture extends StatefulWidget {
   @override
-  _ImagePicker createState() => _ImagePicker();
+  _TakePicture createState() => _TakePicture();
 }
 
-class _ImagePicker extends State<ImagePicker> {
+class _TakePicture extends State<TakePicture> {
   File _image;
   final picker = ImagePicker();
 
