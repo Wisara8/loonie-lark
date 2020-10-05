@@ -9,12 +9,15 @@ class TaskTile extends StatelessWidget {
   final String subTitle;
   final int points;
 
-  TaskTile({this.isDone, this.icon, this.title, this.subTitle, this.points});
+  TaskTile(
+      {this.isDone = false, this.icon, this.title, this.subTitle, this.points});
 
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: Colors.lightGreen,
+      color: Provider.of<TaskData>(context, listen: false).isDone
+          ? Colors.yellowAccent
+          : Colors.lightGreen,
       child: ListTile(
         leading: Icon(
           icon,
@@ -38,6 +41,7 @@ class TaskTile extends StatelessWidget {
           // toggle card colour and strike text.
           // update score
           print(subTitle);
+          Provider.of<TaskData>(context, listen: false).toggleDone();
         },
         isThreeLine: true,
       ),
