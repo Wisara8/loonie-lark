@@ -38,15 +38,12 @@ class TaskTile extends StatelessWidget {
           //save photo?
           //send data
           // toggle colour and strike text
-          print(title);
           Provider.of<TaskData>(context, listen: false).modifyPoints(points);
         },
         onLongPress: () {
           // toggle card colour and strike text.
           // update score
-          print(subTitle);
           toggleComplete();
-          print(isDone);
         },
         isThreeLine: true,
       ),
