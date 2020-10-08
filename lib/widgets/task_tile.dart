@@ -39,6 +39,8 @@ class TaskTile extends StatelessWidget {
           //send data
           // toggle colour and strike text
           Provider.of<TaskData>(context, listen: false).modifyPoints(points);
+          Navigator.push(
+              context, MaterialPageRoute(builder: (context) => ImagePicker()));
         },
         onLongPress: () {
           // toggle card colour and strike text.
