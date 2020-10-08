@@ -27,7 +27,10 @@ class _TakePicture extends State<TakePicture> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Image Picker Example'),
+        title: Text(
+          "Loonie Lark",
+          style: TextStyle(color: Colors.yellow, fontSize: 30.0),
+        ),
       ),
       body: Center(
         child: _image == null ? Text('No image selected.') : Image.file(_image),
