@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../models/task_data.dart';
+import '../widgets/take_picture.dart';
 
 class TaskTile extends StatelessWidget {
   final bool isDone;
