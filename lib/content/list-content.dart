@@ -13,5 +13,11 @@ class ContentList {
       'title': "Make a hat and wear it for the rest of the night",
       'points': 100
     },
+    {'title': "Whole team hanging upside down", 'points': 50},
+    {
+      'title': "Buy a watermelon, name it, love it, then destroy it",
+      'points': 50
+    },
+    {'title': "Shopping Cart Wars", 'points': 50},
   ];
 }
