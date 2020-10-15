@@ -19,5 +19,8 @@ class ContentList {
       'points': 50
     },
     {'title': "Shopping Cart Wars", 'points': 50},
+    {'title': "Hardcore Parkour", 'points': 50},
+    {'title': "Planking difficulty 1000", 'points': 50},
+    {'title': "Condiment Painting", 'points': 50},
   ];
 }
