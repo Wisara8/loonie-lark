@@ -22,5 +22,9 @@ class ContentList {
     {'title': "Hardcore Parkour", 'points': 50},
     {'title': "Planking difficulty 1000", 'points': 50},
     {'title': "Condiment Painting", 'points': 50},
+    {'title': "A massive inukshuk", 'points': 50},
+    {'title': "whole team on a teeter totter", 'points': 50},
+    {'title': "cartwheel in a community garden", 'points': 50},
+    {'title': "cartwheel in a community garden", 'points': 50},
   ];
 }
