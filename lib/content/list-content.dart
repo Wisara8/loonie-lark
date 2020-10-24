@@ -26,5 +26,6 @@ class ContentList {
     {'title': "whole team on a teeter totter", 'points': 50},
     {'title': "cartwheel in a community garden", 'points': 50},
     {'title': "cartwheel in a community garden", 'points': 50},
+    {'title': "cartwheel in a community garden", 'points': 50},
   ];
 }
