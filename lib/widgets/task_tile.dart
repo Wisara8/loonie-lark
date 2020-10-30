@@ -47,6 +47,7 @@ class TaskTile extends StatelessWidget {
           // toggle card colour and strike text.
           // update score
           toggleComplete();
+          Provider.of<TaskData>(context, listen: false).modifyPoints(points);
         },
         isThreeLine: true,
       ),
