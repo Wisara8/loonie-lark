@@ -63,5 +63,11 @@ class TaskData extends ChangeNotifier {
       subTitle: 'Shotgun!',
       points: 100,
     ),
+    Task(
+      icon: Icons.photo_camera,
+      title: "Massive Inukshuk",
+      subTitle: 'Shotgun!',
+      points: 100,
+    ),
   ];
 }

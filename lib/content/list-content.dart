@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+// note this file is currently for reference only
+
 class ContentList {
   List lark = [
     {'title': "upside down dance", 'points': 100},
