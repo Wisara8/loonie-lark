@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "49521435122",
+    "project_id": "loonie-lark",
+    "storage_bucket": "loonie-lark.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49521435122:android:9c6098aa4d5373965acb6b",
+        "android_client_info": {
+          "package_name": "wisara.loonielark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49521435122-5r5p8fq1cl3oan3uda5hso2hqu3inetg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYlTqvLvxgM3rFkVrhZSzWWFbTRdVPrLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49521435122-5r5p8fq1cl3oan3uda5hso2hqu3inetg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
