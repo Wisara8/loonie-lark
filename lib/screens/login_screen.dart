@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 
-class LoginScreen extends StatefulWidget {
-  @override
-  _LoginScreenState createState() => _LoginScreenState();
-}
-
-class _LoginScreenState extends State<LoginScreen> {
+class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Loonie Lark"),
+      ),
+      body: Column(
+        children: [Text("Sign In")],
+      ),
+    );
   }
 }
