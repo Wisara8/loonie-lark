@@ -8,7 +8,13 @@ class LoginScreen extends StatelessWidget {
         title: Text("Loonie Lark"),
       ),
       body: Column(
-        children: [Text("Sign In")],
+        children: [
+          Row(
+            children: [
+              Text("Sign In"),
+            ],
+          )
+        ],
       ),
     );
   }
