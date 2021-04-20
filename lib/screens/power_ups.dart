@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-class LoonieList extends StatelessWidget {
+class LoonieList extends StatefulWidget {
+  @override
+  _LoonieListState createState() => _LoonieListState();
+}
+
+class _LoonieListState extends State<LoonieList> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
