@@ -16,7 +16,7 @@ class _RegistrationState extends State<Registration> {
         children: [
           Row(
             children: [
-              Text("Register In"),
+              Text("Register"),
             ],
           )
         ],
