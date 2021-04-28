@@ -75,5 +75,11 @@ class TaskData extends ChangeNotifier {
       subTitle: 'Kick it Yall',
       points: 100,
     ),
+    Task(
+      icon: Icons.photo_camera,
+      title: "Made at home mask",
+      subTitle: 'Vader Noises',
+      points: 50,
+    ),
   ];
 }
