@@ -81,5 +81,11 @@ class TaskData extends ChangeNotifier {
       subTitle: 'Vader Noises',
       points: 50,
     ),
+    Task(
+      icon: Icons.photo_camera,
+      title: "Task failed successfully",
+      subTitle: 'okay',
+      points: 50,
+    ),
   ];
 }
