@@ -34,6 +34,7 @@ class _LoonieListState extends State<LoonieList> {
           Expanded(
             child: Container(
               child: Text('Power-up Icons go here'),
+              color: Colors.lightBlueAccent,
             ),
           ),
         ],
