@@ -28,6 +28,10 @@ class _LoonieListState extends State<LoonieList> {
               Text(
                 'Pick 3 Shenanigans',
                 style: TextStyle(color: Colors.yellow, fontSize: 20.0),
+              ),
+              Text(
+                'Setup Python',
+                style: TextStyle(color: Colors.yellow, fontSize: 20.0),
               )
             ],
           ),
