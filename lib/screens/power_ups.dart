@@ -30,7 +30,7 @@ class _LoonieListState extends State<LoonieList> {
                 style: TextStyle(color: Colors.yellow, fontSize: 20.0),
               ),
               Text(
-                'Setup Python',
+                'more python',
                 style: TextStyle(color: Colors.yellow, fontSize: 20.0),
               )
             ],
